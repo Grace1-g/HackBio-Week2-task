@@ -13,11 +13,14 @@ Then, the softwares to be used were downloaded. The softwares are
 4. samtools
 
 This was done by using the following command
+
 ##sudo apt-get install software
 
 The datasets to be worked on were downloaded using 'wget' which was downloaded using
+
 ##sudo apt-get install wget
 
 The following command was used to download the datasets
+
 ##wget datasetlink
 
