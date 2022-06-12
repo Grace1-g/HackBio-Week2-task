@@ -4,6 +4,8 @@ Before implementing the softwares, some tasks were carried out. They include:
 
 1. Counting of the number of sequences in a file, DNA.fa. To do this, i used the command below
 
+    tail -n +2 DNA.fa | tr -d '\n' | wc -c
+
 2. Afterwards, the total number of A, T, G and C in the file was determined using
 
 Then, the softwares to be used were downloaded. The softwares are
