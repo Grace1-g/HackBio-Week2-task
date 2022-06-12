@@ -8,6 +8,8 @@ Before implementing the softwares, some tasks were carried out. They include:
 
 2. Afterwards, the total number of A, T, G and C in the file was determined using
 
+   grep -Eo 'A|T|G|C' DNA.fa | sort | uniq -c | awk '{print $2": "$1}'
+
 Then, the softwares to be used were downloaded. The softwares are
 1. fastp
 2. fastqcfastqc
