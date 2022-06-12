@@ -38,8 +38,6 @@ wget https://github.com/josoga2/yt-dataset/blob/main/dataset/raw_reads/Drysdale_
 #create a folder called output
 mkdir output
 
-#Implementing fastqc on the datasets
-
 #Implementing fastqc on the datasets for quality control
 fastqc raw_reads/*.fastq.gz -o output
 
