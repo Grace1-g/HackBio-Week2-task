@@ -10,21 +10,22 @@ Before implementing the softwares, some tasks were carried out. They include:
 
    grep -Eo 'A|T|G|C' DNA.fa | sort | uniq -c | awk '{print $2": "$1}'
 
-Then, the softwares to be used were downloaded. The softwares are
+## Then, the softwares to be used were downloaded. The softwares are:
+
 1. fastp
-2. fastqcfastqc
+2. fastqc
 3. bwa
 4. samtools
 
 This was done by using the following command
 
-##sudo apt-get install software
+    sudo apt-get install software
 
 The datasets to be worked on were downloaded using 'wget' which was downloaded using
 
-##sudo apt-get install wget
+    sudo apt-get install wget
 
 The following command was used to download the datasets
 
-##wget datasetlink
+    wget datasetlink
 
